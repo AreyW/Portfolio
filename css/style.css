@@ -1,4 +1,35 @@
+#navigation{
 
+    background-color: rgb(184, 184, 204);
+}
+#navigation > ul {
+list-style: none; 
+margin: 0; 
+padding: 30px;  
+padding-left: 0px;
+}
+#navigation > ul > li {
+    display: inline;
+    margin-right: 10px;
+}
+body{
+    margin: 0;
+}
+
+#header {
+    padding: 10px;
+    background-color: rgb(175, 112, 177);
+}
+
+#content{
+    padding: 10px;
+    background-color: blue;
+}
+
+#footer{
+    padding: 10px;
+    background-color: greenyellow;
+}
 h1 {
     color:teal;
 }

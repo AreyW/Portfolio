@@ -45,7 +45,7 @@ body{
 }
 
 #content p:nth-child(2n){
-    background:red;
+    background:purple;
 }
 #content .container{
     margin: 0 auto;

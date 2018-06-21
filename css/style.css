@@ -1,7 +1,9 @@
 #navigation{
 position: fixed;
     background-color:rgb(88, 189, 189);
-    width: 100vw;
+    width: 100vw; 
+top:0;
+
 }
 #navigation a{
     color:white;
@@ -17,15 +19,16 @@ padding-left: 0px;
     margin-right: 10px;
 }
 #navigation .container{
-    margin: 0 auto
+    margin: 0 auto;
 }
 body{
     margin: 0;
-    background: lightgray;
+    background: white;
 }
 
 #header {
     padding: 10px;
+    margin: 50px;
    
 }
 #header .container{
@@ -34,11 +37,11 @@ body{
 
 #content{
     padding: 10px;
-  background:lightgray;
+  background:white;
 }
 
 #content p:first-child{
-    background: teal
+    background: teal;
 }
 #content p:nth-child(3){
     background: white;
@@ -55,6 +58,7 @@ body{
     padding: 10px;
    color:white;
    background: black;
+  
 }
 
 #footer a {
@@ -73,7 +77,6 @@ padding-left: 0px;
     margin-right: 10px;
 }
 
-}
 h1 {
     font-size: 30px;
 }
@@ -82,7 +85,7 @@ p {
     font-size: 20px;
 }
 h2{
-   
+    font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
 #bold{

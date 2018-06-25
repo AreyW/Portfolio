@@ -60,7 +60,7 @@ body{
 
 #content{
     padding: 10px;
-  background:white;
+  background: gray;
 }
 
 #content p:first-child{

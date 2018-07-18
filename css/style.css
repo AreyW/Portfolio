@@ -58,7 +58,7 @@ position: relative;
 
 #root{
 grid-template-rows: min-content min-content auto min-content ;
-    background: white;
+    background: gray;
     display: grid;
     grid-template-areas: 
     "navigation"
@@ -71,7 +71,7 @@ grid-template-rows: min-content min-content auto min-content ;
 #header {
     padding: 10px;
     margin: 50px;
-   
+  
 }
 
 #header .container{
@@ -180,9 +180,12 @@ h3{
         "navigation header"
         " navigation content"
         "navigation footer";
+       
     }
     #navigation {
        grid-area: navigation; 
+        width: 20%;
+        height: 100vh;
     }
     #navigation > ul {
         flex-direction: column;

@@ -4,10 +4,13 @@ import Header from './src/Header';
 import Navigation from './src/Navigation';
 import * as State from './store';
 import Navigo from 'Navigo';
+import axios from 'axios';
 import { capitalize } from 'lodash';
 
 var root = document.querySelector('#root');
 var router = new Navigo(location.origin);
+
+axios('https://jsonplaceholder.typicode.com/posts').then(console.log);
 
 function render(state){
     var greeting;

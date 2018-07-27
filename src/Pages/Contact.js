@@ -1,5 +1,5 @@
-export default `
-
+export default function Contact(){ 
+return `
   <form action="https://formspree.io/whittingtonare@ucityschools.org" method="POST">
     <input type="text" name="firstname" value="First Name" size="100" autofocus>
     <input type="text" name="lastname" value="Last Name" size="100">
@@ -35,3 +35,4 @@ export default `
   </form>
 
 `;
+}

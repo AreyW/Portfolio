@@ -3,12 +3,12 @@ import Footer from './src/Footer';
 import Header from './src/Header';
 import Navigation from './src/Navigation';
 import * as State from './store';
-import Navigo from 'Navigo';
+import navigo from 'navigo';
 import axios from 'axios';
 import { capitalize } from 'lodash';
 
 var root = document.querySelector('#root');
-var router = new Navigo(location.origin);
+var router = new navigo(location.origin);
 
 State.posts = [];
 
